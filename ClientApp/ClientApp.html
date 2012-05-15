@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ClientApp</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+  </head>
+  <body>
+    <div id="play_area">
+	    <div id="loading" class="mini_box design_box">
+	    	<img src="loading.gif">&nbsp;&nbsp;Loading...
+	    </div>
+	    <div id="username_fieled" class="mini_box design_box">
+	    	<div style="margin-bottom: 8px;">twitterのユーザー名を入れてください。</div>
+	    	<input type="text" id="username_input">
+	    	<input type="button" value="設定" id="submit_username">
+	    </div>
+	    
+    	<canvas id="canvas_area" width="640" height="480"></canvas>
+    	<input type="text" id="chat_text">
+    	<div class="user_num_panel design_box">
+    		参加人数
+    		<div id="user_num">0</div>
+    	</div>
+    </div>
+    
+    <!--h2 id="status">dart is not running<br></h2-->
+    <script type="application/dart" src="ClientApp.dart"></script>
+    <script src="http://dart.googlecode.com/svn/branches/bleeding_edge/dart/client/dart.js"></script>
+
+  </body>
+</html>

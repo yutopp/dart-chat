@@ -1,0 +1,72 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+#username_fieled {
+	display: none;
+}
+
+#play_area {
+	position: relative;
+	top: 0px;
+	left: 0px;
+	
+	margin: 10px;
+	padding: 10px;
+	width: 720px;
+	height: 520px;
+	border: 1px solid #000;
+	border-radius: 5px;
+	background-color: #ddddff;
+	box-shadow: 0 0 12px #444;
+}
+
+.design_box {
+	border-radius: 5px;
+	border: solid 1px #000;
+	background-color: rgba( 255, 255, 255, 0.7 );
+	box-shadow: 0 0 12px #444;
+}
+
+#play_area .mini_box {
+	position: absolute;
+	top: 200px;
+	left: 210px;
+		
+	margin: 4px;
+	padding: 30px 2px;
+	width: 320px;
+	height: 30px;
+	text-align: center;
+	text-shadow: 1px 1px 2px #444;
+}
+
+#play_area .user_num_panel {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	
+	margin: 10px;
+	padding: 4px 2px 2px 4px;
+	width: 65px;
+	font-size: 14px;
+	text-align: center;
+}
+
+#user_num {
+	margin: 5px 0;
+	font-size: 28px;
+	font-weight: bold;
+	text-align: center;
+}
+
+#canvas_area {
+	background-color: rgba( 255, 255, 255, 0.8 );
+}
+
+#chat_text {
+	margin: 4px 0 0 -2px;
+	width: 640px;
+	height: 28px;
+}
